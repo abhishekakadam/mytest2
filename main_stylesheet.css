@@ -57,6 +57,7 @@ background:transparent;
 vertical-align: baseline;
 text-decoration:none;
 color: #012134;
+
 }
 
 a:hover{
@@ -134,7 +135,6 @@ vertical-align:middle;
     width: 174px;
     height: 38px;
     margin-top: 0px;
-    background-size: auto 43px;
     background-image: url(images/logo.png);
     background-repeat: no-repeat;
 }
@@ -153,13 +153,14 @@ header{
 	margin-top:10px;
 }
 .main_nav ul li a{
+	display: block;
 	padding: 10px 25px;
+	
 }
 .page-title{
 	color: #666666;
 	text-align: center;
-	font-family: "Lato Regular","verdana",serif;
-	padding-top: 50px;
+	margin-top: 50px;
 	font-size: 26px;
 }
 .main_slider{
@@ -171,7 +172,10 @@ header{
 	width: 560px;
 	height: 650px;
 	float: left;
+	background-image: url(images/iphone.png);
+	background-repeat: no-repeat;
 }
+
 .slider_container{
 	margin-top: 150px;
 	margin-left: 30px;
@@ -197,12 +201,14 @@ header{
 }
 .mid-slider{
 
-	height: 475px;
+	margin-top: 20px;
+	height: 455px;
 	background-color: #6cc6eb;
 }
 
-.folder_img img{
-	
+.folder_img{
+	background-image: url(images/what_we_do.png);
+	background-repeat: no-repeat;
 	display: block;
 	height: 250px;
 	width: 400px;
@@ -218,29 +224,6 @@ header{
 	margin-top: 30px;
 	color: #fff;
 }
-
-
-/*
-.mid-slider{
-	margin-top: 100px;
-}
-.mid-slider img{
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-}
-.mid-slider-text{
-
-	margin-top: 25px;
-	text-align: center;
-	color: #f4f4f4;
-}
-.mid-slider-text h3{
-	font-size: 16px;
-}
-.mid-slider-text p{
-	font-size: 12px;
-}*/
 
 .subscriptions_1{
 	background-color: #f4f4f4;
