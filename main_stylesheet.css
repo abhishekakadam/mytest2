@@ -162,7 +162,6 @@ header{
 	background-image: url(images/iphone.png);
 	background-repeat: no-repeat;
 }
-
 .slider_container{
 	margin-top: 150px;
 	margin-left: 30px;
@@ -187,23 +186,22 @@ header{
 	height: 70px;
 }
 .mid-slider{
-	margin-top: 20px;
-	height: 455px;
+	height: 500px;
 	background-color: #6cc6eb;
+	padding-top: 55px;
 }
-
 .folder_img{
 	background-image: url(images/what_we_do.png);
 	background-repeat: no-repeat;
 	display: block;
 	height: 300px;
 	width: 400px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top-top: 50px;
+	margin: 0px auto;
 
 }
-
+/*.folder_img{
+	background-image: url(images/input_field_shadow.png);
+}*/
 .folder_img_txt{
 	text-align: center;
 	margin-top: 30px;
