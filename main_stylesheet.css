@@ -48,7 +48,7 @@ content:'';
 content:none;
 }
 
-a {
+.main_nav ul li a {
 margin:0;
 padding:0px;
 font-size:100%;
@@ -60,7 +60,7 @@ color: #012134;
 
 }
 
-a:hover{
+.main_nav ul li a:hover{
 	
 	background-color: #66ccff;
 	border-radius: 40px;
@@ -68,19 +68,6 @@ a:hover{
 
 	
 }
-.textbox{
-
-	background: white; 
-    border: 1px solid #DDD; 
-    border-radius: 5px; 
-    box-shadow: 0 0 5px #DDD inset; 
-    color: #666; 
-    outline: none; 
-    height:25px; 
-    width: 275px; 
-    margin-top: 10px;
-}
-
 
 
 /* change colours to suit your needs */
@@ -168,7 +155,7 @@ header{
 	margin-top: 20px;
 }
 .image_div{
-	padding-left: 75px;
+	margin-left: 75px;
 	width: 560px;
 	height: 650px;
 	float: left;
@@ -200,7 +187,6 @@ header{
 	height: 70px;
 }
 .mid-slider{
-
 	margin-top: 20px;
 	height: 455px;
 	background-color: #6cc6eb;
@@ -210,64 +196,119 @@ header{
 	background-image: url(images/what_we_do.png);
 	background-repeat: no-repeat;
 	display: block;
-	height: 250px;
+	height: 300px;
 	width: 400px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 50px;
+	margin-top-top: 50px;
 
 }
 
 .folder_img_txt{
-
 	text-align: center;
 	margin-top: 30px;
 	color: #fff;
 }
 
-.subscriptions_1{
+.customer_list{
+	height: 150px;
 	background-color: #f4f4f4;
-	text-align: center;
 }
-.subscriptions_2{
-	text-align: center;
-	margin-top: 70px;
-	margin-bottom: 70px;
-}
-.subscriptions_2 h3{
 
-	font-size: 20px;
+.customer_list ul{
+	list-style-type: none;
+	display: table;
+	margin: 0px auto;
 }
-.subscriptions_2 p{
-
-	font-size: 15px;
+.customer_list ul li{
+	float: left;
+	margin-top: 35px;
+}
+.news_letters{
+	height: 140px;
+	padding-top: 40px;
+}
+.news_letters h3{
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	height: 30px;
+	width: 200px;
+	font-size: 18px;
+}
+.news_letters p{
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	height: 30px;
+	width: 400px;
+	font-size: 16px;
+}
+.emailbox{
+	background: white; 
+    border: 1px solid #DDD; 
+    box-shadow: 0 0 5px #DDD inset; 
+    color: #666; 
+    outline: none;
+    border-radius: 40px; 
+    height:40px; 
+    width: 325px; 
+    display: block;
+    text-align: center;
+    margin: 15px auto;
 }
 .footer-content{
 
-	background-color: #575859;
-	height: 200px;
+	background-color: #838484;
+	height: 218px;
+	width: 1300px;
+	margin: 0px auto;
 }
 .footer-copyright{
-	height: 100px;
-	width: 358px;
 	float: left;
-	padding-left:75px;
-	padding-top: 100px; 
 	color: #6f6f6f;
+	width: 433px;
+}
+
+.footer-copyright p{
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	height: 20px;
+	width: 200px;
+	padding-top: 100px;
 }
 .middle-logo{
 
-	height: 100px;
-	display: block;
-	width: 433px;
 	float: left;
-	padding-top: 100px; 
-	text-align: center;
+	width: 433px;
+}
+.middle-logo img{
+
+	display: block;
+	margin: 0px auto;
+	padding-top: 100px;
 }
 .fb-like{
-	float: left;
-	width: 168px;
-	height: 100px;
-	padding-top: 100px;
-	padding-left: 265px;
+	width: 433px;
+	float: right;
+
+}
+.twitter{
+
+	background-image: url(images/twitter.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 115px;
+	margin: 100px 0px 0px 0px;
+}
+
+.fb{
+	background-image: url(images/fb-small.png);
+	background-repeat: no-repeat;
+	display:inline-block;
+	height: 20px;
+	width: 50px;
+	margin: 100px 0px 0px 115px;
 }
